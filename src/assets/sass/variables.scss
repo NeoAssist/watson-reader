@@ -1,0 +1,46 @@
+$globals: (
+  color: #7F7F7F,
+  font-family: ('Montserrat', sans-serif),
+  font-size: 14px,
+);
+
+$colors: (
+  primary: #2152a3,
+  primary-alternative: #dd0023,
+  primary-light: #f0f7fd,
+  default: #dd0023,
+  default-light: #2152a3,
+  success: #6CA775,
+  danger: #DF7D7D,
+);
+
+$topics: (
+  topic-proportion: calc(20% - 16px),
+  topic-proportion-mobile: calc(50% - 16px),
+
+  square-border-radius: 7px,
+  square-box-shadow: 0 2px 5px 1px rgba(0,0,0,0.2),
+  square-default-alt-background: #f7f7f7,
+  square-primary-color: map-get($colors, primary),
+  square-font-color: map-get($colors, default),
+);
+
+$fields: (
+  border: 1px solid #908F8F,
+  border-radius: 7px,
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.16),
+  font-color: map-get($globals, color),
+  font-family: ('Montserrat', sans-serif),
+);
+
+$buttons: (
+  border: 0 none,
+  border-radius: 7px,
+  default-background: map-get($colors, default),
+  primary-background: map-get($colors, alternative),
+  primary-alt-background: darken(map-get($colors, primary-alternative), 10),
+  font-family: ('Montserrat', sans-serif),
+  font-color: #FFF,
+  text-transform: uppercase,
+);
+
