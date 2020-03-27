@@ -1,3 +1,3 @@
 module.exports = {
-   publicPath: ‘/watson-reader/’
+    publicPath: '/watson-reader/'
 }
